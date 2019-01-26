@@ -1,4 +1,4 @@
-# python-webscraping
+# Python Scrapy
 Web Scraping with Scrapy
 
 
