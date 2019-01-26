@@ -11,7 +11,4 @@ class FeedXmlSpider(XMLFeedSpider):
 
     def parse_node(self, xml_response, node):
         sel = Selector(xml_response)
-        print(sel.xpath("//item//title").extract_first())
-        #self.logger.info('Hi, this is a <%s> node!: %s', self.itertag, ''.join(node.extract()))
-
-        #print(response.body)
+        print(sel.xpath("//item//title").extract())
